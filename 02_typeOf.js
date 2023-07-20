@@ -6,6 +6,8 @@ console.log("value of variable is:",bankName);
 console.log("Type of variable is:",typeof bankName);
 
 
+
+
 var marks = '90%';
 console.log("Marks:",marks);
 console.log("Type of variable is:",typeof marks);
