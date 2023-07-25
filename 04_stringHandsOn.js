@@ -33,8 +33,8 @@ function stingHandsOn() {
   console.log(`After trim first character is: ${afterTrimChar0}`,`   After trim last character is: ${afterTrimLastChar}`);
 
   console.log(`----------------Step6--------------------`);
-  var result = trim.split('');
-  var words = result.length
+  var result = trim.split(' ');
+  var words = result.length;
   console.log(`Total number of words are : ${words}`);
 
   console.log(`----------------Step7--------------------`);
