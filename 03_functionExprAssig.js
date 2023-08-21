@@ -45,7 +45,8 @@ var string = function(str){
     console.log(`Very first character of given string is : "${result}"`);
     var result = str.charAt(str.length-3);
     console.log(`The third last character of given string is : "${result}"`);
-    var words = str.split(" ");
+    var words = str
+    .split(" ");
     var res = words.length;
     var result = res * res;
     console.log(`Total number of words in given string are '${res}' & square of this is : '${result} `);
