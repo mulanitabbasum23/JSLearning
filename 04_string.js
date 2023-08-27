@@ -15,7 +15,7 @@ var firstName = 'Tabbasum';
 var lastName = 'Mulani';
 var fullName = firstName + lastName;
 console.log(`Concatenation string is ${fullName}`);
-var result =firstName.concat(lastName);
+var result = firstName.concat(lastName);
 console.log(`My full name is: ${result}`);
 console.log('------------------------------------------');
 

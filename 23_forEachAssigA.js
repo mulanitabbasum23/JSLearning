@@ -9,7 +9,7 @@ arrayNumbers.forEach((currentValue)=>{
     if (currentValue > 0) {
         console.log(`${currentValue}`);
     }
-});
+});                
 console.log(`-------------------- Step 3 --------------------`);
 let arrayFun = ()=>{
     let newArray = [];
