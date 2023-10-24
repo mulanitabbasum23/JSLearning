@@ -24,10 +24,9 @@ class Employee {
     emp_viny,
     emp_mahi,
   ];
-  arrayEmployees.sort((emp1, emp2)=> {
-    return emp1.emp_salary > emp2.emp_salary ? 1 : -1;
-  });
-
-  for (const employee of arrayEmployees) {
-    console.log(employee);
-  }
+arrayEmployees.sort((emp1,emp2)=>{
+  return emp1.emp_salary > emp2.emp_salary ? 1 : -1;
+})
+for (const employee of arrayEmployees) {
+  console.log(employee);
+}
